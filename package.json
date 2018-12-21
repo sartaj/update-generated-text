@@ -1,13 +1,16 @@
 {
   "name": "update-generated-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Update or append a block of generated text.",
   "main": "index.js",
   "scripts": {
     "test": "node ./specifications"
   },
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "index.js"
+  ],
+  "author": "sartaj <sartaj@sartaj.me>",
+  "license": "MIT",
   "devDependencies": {
     "tape": "^4.9.1"
   }
